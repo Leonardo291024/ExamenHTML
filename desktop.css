@@ -1,0 +1,111 @@
+nav .icon-menu{
+    display: none;
+}
+
+nav .menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    list-style: none;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 10px 10px;
+    color: grey;
+}
+
+nav .menu li a:hover{
+    color: orangered;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+main .seccion-1 .encabezado{
+    display: flex;
+}
+
+.encabezado h1{
+    font-size: 3.5rem;
+}
+
+.encabezado div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.encabezado div p{
+    font-size: 1.5rem;
+}
+
+.encabezado div button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: orangered;
+    color: wheat;
+}
+
+main .articulo{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 70%;
+    height: 496px;
+    background-color: rgb(46, 56, 115);
+}
+
+.articulo .articulo-div h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+.articulo .articulo-div h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.articulo .articulo-div p{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.articulo .articulo-div:nth-child(1){
+    border-bottom: 1px solid white;
+}
+
+.articulo .articulo-div:nth-child(2){
+    border-bottom: 1px solid white;
+}
+
+.seccion-3{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding: 10px 10px;
+}
+
+.seccion-3 .seccion-3-divs{
+    display: flex;
+    height: 200px;
+}
+
+.seccion-3-divs div{
+    display: flex;
+    height: 254px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    height: 200px;
+}

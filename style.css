@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+nav .icon-menu{
+    display: flex;
+}
+
+nav .menu{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+
+main .seccion-1 picture img{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.encabezado{
+    padding: 10px 10px;
+}
+
+.encabezado h1{
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+.encabezado div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.encabezado div p{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.encabezado div button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: orangered;
+    color: wheat;
+}
+
+main article{
+    width: 100%;
+    height: 400px;
+    padding: 20px 20px;
+    background-color: rgb(46, 56, 115);
+}
+
+.articulo .articulo-div h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+.articulo .articulo-div h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.articulo .articulo-div p{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.articulo .articulo-div:nth-child(1){
+    border-bottom: 1px solid white;
+}
+
+.articulo .articulo-div:nth-child(2){
+    border-bottom: 1px solid white;
+}
+
+.seccion-3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.seccion-3 .seccion-3-divs{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.seccion-3 .seccion-3-divs:nth-child(1){
+    margin-bottom: 15px;
+}
+
+.seccion-3 .seccion-3-divs:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.seccion-3 .seccion-3-divs div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.seccion-3 .seccion-3-divs img{
+    height: 200px;
+}
